@@ -1,3 +1,4 @@
+# 프로그램 실행 전 번개 업데이트 프로그램
 from pywinauto import application
 from pywinauto import timings
 import time
