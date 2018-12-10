@@ -129,7 +129,7 @@ class MyWindow(QMainWindow, form_class):
 
         self.tableWidget_3.resizeRowsToContents()
 
-    def code_changed(self):
+    def code_changed(self):    ## 코드를 이름으로 바꿔줌
         code = self.lineEdit.text()
         name = self.kiwoom.get_master_code_name(code)
         self.lineEdit_2.setText(name)
