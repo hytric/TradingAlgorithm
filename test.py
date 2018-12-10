@@ -4,7 +4,7 @@ from pywinauto import timings
 import time
 import os
 app = application.Application()
-app.start("C:/KiwoomFlash3/bin/nkministarter.exe")
+app.start("C:/KiwoomFlash3/bin/nkministarter.exe")  # 번개 프로그램 실행 장소
 title = "번개3 Login"
 timings.always_wait_until(20, 0.5)
 dlg = app.window(title = title)
