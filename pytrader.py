@@ -37,7 +37,7 @@ class MyWindow(QMainWindow, form_class):
 
         self.load_buy_sell_list()
 
-    def trade_stocks(self):    ## 자동주문 방식
+    def trade_stocks(self):    ## 자동주문 방식으로 매수/매도
         hoga_lookup = {'지정가': "00", '시장가': "03"}
 
         f = open("buy_list.txt", 'rt')
