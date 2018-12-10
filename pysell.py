@@ -1,3 +1,4 @@
+# 매도 종목 선정
 import sys
 from PyQt5.QtWidgets import *
 import Kiwoom
