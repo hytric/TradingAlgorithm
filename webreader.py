@@ -1,3 +1,4 @@
+# 주식 종목 웹스크래핑 프로그램
 import urllib.request
 import requests
 import pandas as pd

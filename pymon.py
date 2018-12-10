@@ -1,4 +1,4 @@
-# 자동 매수 종목 선정
+# 자동 매수 종목 선정하기
 import sys
 from PyQt5.QtWidgets import *
 import Kiwoom

@@ -1,4 +1,4 @@
-# 자동 매수매도 프로그램
+# 자동 매수매도 프로그램 실행
 import sys
 from PyQt5.QtWidgets import *
 from PyQt5.QtCore import *

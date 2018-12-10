@@ -1,4 +1,4 @@
-# 매도 종목 선정
+# 매도 종목 선정하기
 import sys
 from PyQt5.QtWidgets import *
 import Kiwoom
